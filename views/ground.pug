@@ -1,0 +1,17 @@
+extends layout 
+
+block content 
+    h1 Selected Teams
+        table.table#teamtable
+            thead 
+                th Name 
+                th Actions
+            tbody 
+                each team in ground
+                    tr 
+                        td=team.name
+                        td
+                            a(href="/teams/ground/remove/"+team._id, class="btn btn-danger ") Remove Team  
+            tfoot#tfoot
+                tr 
+                    td PSL

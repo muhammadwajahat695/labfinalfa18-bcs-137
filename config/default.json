@@ -1,0 +1,4 @@
+{
+    "db": "mongodb+srv://minahil:1209msaa@newcluster.t5y7y.mongodb.net/PSL",
+    "jwtPrivateKey": "SomePrivateKey"
+}

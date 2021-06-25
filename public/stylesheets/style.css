@@ -1,0 +1,68 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: lightpink;
+}
+
+a {
+  color: #00B7FF;
+}
+h1{
+  color: darkblue;
+  font-weight: bolder;
+  background-color:ivory;
+}
+.form{
+  font-style: italic;
+  font-weight: bolder;
+  color: brown;
+}
+.form-control{
+  background-color: gold;
+}
+h2{
+  background-color: lavenderblush;
+}
+.navbar{
+  color: aliceblue;
+  font-size: large;
+  background-color: aliceblue;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h2{
+  color: lightpink;
+  font-weight: bold;
+}
+#carttable{
+  font-size: medium;
+  font-family: Arial, Helvetica, sans-serif;
+  color: brown;
+  table-layout: auto;
+  background-color: pink;
+}
+#tfoot{
+  background-color: plum;
+  color: black;
+  font-weight: bolder;
+}
+.form-group input#name{
+
+  color: black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  font-size: medium;
+}
+.form-group input#email{
+
+  color: black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  font-size: medium;
+}
+.form-group input#password{
+
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: medium;
+}

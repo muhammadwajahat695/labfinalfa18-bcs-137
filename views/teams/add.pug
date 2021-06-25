@@ -1,0 +1,9 @@
+extends ../layout
+
+block content
+    h1 Add New Team
+    form(action="/teams/add", method="post")
+        .form-group     
+            label(for="name")  Team name
+            input#name(type="text", class="form-control", name="name")
+        input(type="Submit", class="btn btn-info", value="ADD") 
